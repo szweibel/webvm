@@ -12,7 +12,7 @@ For instance, if you run `ls d*`, it will list all the files that start with "d"
 
 In the same way, `*.txt` will mean "All files whose names start with anything and end with '.txt' "
 
-	Try running these just to see it at work (notice that these are case sensitive):
+	Try running these just to see it at work (notice that these are case-sensitive):
 		`ls d*`
 		`ls *.txt`
 
@@ -22,7 +22,7 @@ You could try `cat *.md` and manually count the characters. But that doesn't see
 
 	Run `cat *.md` just to see it at work, but don't waste your time counting characters.
 
-Instead, let's use another command, wc (word count). Despite the name, it can be used to count words, lines or characters.
+Instead, let's use another command, wc (word count). Despite the name, it can be used to count words, lines, or characters.
 Let's see how it works:
 
 	Run `wc --help` and read the first few lines.
@@ -46,5 +46,5 @@ See if you're getting the number 39 in the output.
 If so, now it's time to add it all together:
 
 	CHALLENGE: Run a command that will count the number of characters of all files that have the markdown extension.
-	Write the total down and go read the next isntructions in done2.md
+	Write the total down and go read the next instructions in done2.md
 
