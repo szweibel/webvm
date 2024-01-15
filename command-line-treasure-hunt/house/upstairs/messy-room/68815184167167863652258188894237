@@ -2,9 +2,13 @@ Great job!
 I know you expected this to be the treasure, but I promise you are almost there.
 
 The treasure is hidden as a hidden file, somewhere in the house. Hidden files start with a dot. Like this ".bash-config"
-By default, they do not show up when you use `ls`. However, there is a way to make `ls` list hidden files. Why don't you google "how to list hidden files in bash" to find out?
+By default, they do not show up when you use `ls`. However, there is a way to make `ls` list hidden files and directories with the option `-a`. In this case, the command should be:
 
-Once you learn it, I suggest you to go back all the way to the command-line-treasure-hunt to start looking for it.
+```console
+$ ls -a
+```
+
+Now, I suggest you go back all the way to the `command-line-treasure-hunt` to start looking for it.
 
 You can use `cd ..` multiple times until you get there. Or, if you're feeling fancy, you can use the absolute path and just go there directly.
 Your choice!
