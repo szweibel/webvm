@@ -3,7 +3,7 @@ ARG DEBIAN_FRONTEND=noninteractive
 RUN apt-get clean && apt-get update && apt-get -y upgrade
 RUN apt-get -y install apt-utils gcc \
 	python3 vim unzip nodejs \
-	fakeroot dbus base whiptail hexedit nano \
+	fakeroot dbus base whiptail hexedit nano coreutils \
 	patch wamerican ucf manpages \
 	file make dialog curl \
 	less cowsay netcat-openbsd
