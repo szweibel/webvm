@@ -10,7 +10,6 @@ RUN apt-get -y install apt-utils gcc \
 RUN useradd -m user && echo "user:password" | chpasswd
 COPY --chown=user:user ./data /home/user/data
 COPY --chown=user:user ./command-line-treasure-hunt /home/user/command-line-treasure-hunt
-RUN chmod -R +x  /home/user/examples/lua
 # We set WORKDIR, as this gets extracted by Webvm to be used as the cwd. This is optional.
 WORKDIR /home/user/
 # We set env, as this gets extracted by Webvm. This is optional.
